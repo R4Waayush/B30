@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, p{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    padding: 10px;
+    height: 450px;
+    width: 300px;
+    border-radius: 5px;
+    overflow: auto;
+    background-color:  rgb(8, 37, 28);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.container .part1 h1{
+    font-size: 30px;
+}
+
+
+.part1 .mystatus img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+span {
+    display: block; /* This makes the span behave like a block element */
+    margin-top: 5px; /* Adds 20px margin to the top and bottom */
+    font-size: 13px;
+}
+.OtherStatus, .mystatus{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    gap: 5px;
+    color: white;
+}
+
+.allStatus{
+    overflow: auto;
+}
+
+.part2 .allStatus img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.part2 .allStatus p{
+    font-size: 13px;
+    font-weight: 400;
+    
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: 'helvetica now display';
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+.circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.switch{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 25px;
+    border: #333;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+}
+/* .switch .switchon{
+    position: relative;
+    left: 0;
+   
+    height: 45px;
+    width: 45px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.switch.active .switchon{
+   left: 75%;          
+} */

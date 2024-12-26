@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: helvetica;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(100, 176, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding: 20px;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 6px;
+
+}
+.progress{
+   height: 7px;
+   width: 100%;
+   background-color: gray;
+   border-radius: 5px;
+}
+.time{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.growth{
+    height: 100%;
+    width: 0%;
+    border-radius: 5px;
+    background-color: rgb(2, 174, 2)
+}

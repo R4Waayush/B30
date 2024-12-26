@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/57cf18ae6b8f5ba693497e1a/1679680162121-4FJ7PXBWN228KWKE44RQ/Watchf_AP_A_NY_USA_APHS461259_Twin_Towers_210834169685.jpg?format=2500w);
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    height: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    /* transform: translate(-100%,-100%); */
+}

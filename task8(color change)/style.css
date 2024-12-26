@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'helvetica now display' ;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+button{
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: black;
+    border: 1px solid #ffffff;
+
+}
+button:active{
+    scale: 0.95;
+}
