@@ -43,9 +43,25 @@ users.forEach(function(elem,idx){
 
 part1.innerHTML = sum;
 overlay = document.querySelector(".overlay");
+userName = document.querySelector(".overlay h2");
+growthBar = document.querySelector(".overlay .progress .growthBar");
 part1.addEventListener("click", function(dets){
-    console.log(users[dets.target.id].storyPhoto);
+    growth = 0
+
+
     overlay.style.display = "block";
     overlay.style.backgroundImage = `url("${users[dets.target.id].storyPhoto})`;
-       
+    userName.innerHTML = users[dets.target.id].name 
+
+    let interval = setInterval(function(elem){
+        growth++
+        growthBar.style.width = growth + "%"
+        console.log(growth);
+        
+    },50)
+
+    setTimeout(() => {
+        clearInterval(interval)
+        overlay.style.display = "none";
+    }, 5000);
 })
